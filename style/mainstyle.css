@@ -1,0 +1,57 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+nav {
+    background-color: #EEDDCC;
+
+}
+
+main {
+    background-color: #006688;
+    color: white;
+}
+
+footer {
+    background-color: #FF6677;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+   
+
+}
+
+.headline {
+    background-color: #3399BB;
+    color: black;
+    text-align: center;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.mainCopy {
+    padding: 15px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+}
+
+.iconImage {
+    height: 400px;
+    width: 400px;
+   
+
+}
