@@ -1,5 +1,6 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
 }
 
 body {
@@ -7,12 +8,34 @@ body {
 }
 
 header {
-
 }
 
-nav {
+.navigationBar {
     background-color: #EEDDCC;
+    height: 140px;
+    width: 100%;
+    justify-content: flex-end;
+}
 
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.navigationBar a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    height: 80px;
+    color: black;
+}
+
+nav a:hover {
+    color: #FF6677;
 }
 
 main {
