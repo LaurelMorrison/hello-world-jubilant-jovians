@@ -73,8 +73,33 @@ footer {
 }
 
 .iconImage {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
    
 
+}
+
+.list {
+    overflow: hidden;
+}
+
+.list a {
+    
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.list :hover{
+    color: #FF6677;
+}
+
+.logo{
+    max-height: 200px;
+    max-width: 200px;
 }
