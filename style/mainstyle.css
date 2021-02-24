@@ -33,12 +33,16 @@ header {
     margin-top: 15px;
 }
 
+.navigationBar {
+    color: black;
+}
+
 .navigationBar a {
     display: inline-block;
     vertical-align: middle;
     margin-right: 20px;
     height: 80px;
-    color: black;
+    color: #068;
 }
 
 nav a:hover {
@@ -82,7 +86,10 @@ footer {
 .iconImage {
     height: 200px;
     width: 200px;
-    object-fit: contain;
+    object-fit: cover;
 
 }
 
+#active {
+    color: #FF6677;
+}
