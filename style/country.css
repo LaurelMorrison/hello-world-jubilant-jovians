@@ -1,0 +1,114 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+body {
+
+}
+
+header {
+}
+
+.headerimg {
+        width: 1500px;
+        height: auto;
+        max-width: 100%;
+
+}
+
+.navigationBar {
+    background-color: #EEDDCC;
+    height: 140px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.navigationBar a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    height: 80px;
+    color: black;
+}
+
+nav a:hover {
+    color: #FF6677;
+}
+
+
+
+
+
+footer {
+    background-color: #FF6677;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+   
+
+}
+
+.headline {
+    background-color: #3399BB;
+    color: black;
+    text-align: center;
+    max-height: 200px;
+    padding: 50px;
+}
+
+.mainCopy {
+    padding: 15px;
+    text-align: center;
+    background-color:#EEEEEE;
+}
+
+.sections {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em;
+    text-align: center;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.cities{
+    background-color: #068;
+    color: white;
+    width: 33%;
+  
+    
+
+}
+
+.landmarks{
+    background-color: #3399BB;
+    width: 33%;
+    
+
+}
+
+.citizens{
+    background-color: #068;
+    color: white;
+    width: 33%;
+    
+
+}
+
+
+
