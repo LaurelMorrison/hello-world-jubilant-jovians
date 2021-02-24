@@ -90,3 +90,11 @@ footer {
 
 }
 
+.link {
+    color: white;
+}
+
+p a:hover {
+    color: #EEDDCC
+}
+
