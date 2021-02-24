@@ -19,18 +19,19 @@ header {
 
 .navigationBar {
     background-color: #EEDDCC;
-    height: 140px;
+    max-height: 140px;
     width: 100%;
     justify-content: flex-end;
+
 }
 
 .logo {
     display: inline-block;
     vertical-align: middle;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     margin-right: 20px;
-    margin-top: 15px;
+    
 }
 
 .navigationBar {
@@ -38,9 +39,10 @@ header {
 }
 
 .navigationBar a {
+    float: right;
     display: inline-block;
-    vertical-align: middle;
     margin-right: 20px;
+    margin-top: 50px;
     height: 80px;
     color: #068;
 }
