@@ -33,12 +33,12 @@ html {
 }
 
 .navigationBar a {
-    float: right;
     display: inline-block;
     margin-right: 20px;
     margin-top: 50px;
     height: 80px;
     color: #068;
+    float: right;
 }
 
 .navigationBar a:active {
