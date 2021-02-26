@@ -34,15 +34,17 @@ header {
     
 }
 
+.navigationBar {
+    color: black;
+}
+
 .navigationBar a {
     float: right;
     display: inline-block;
     margin-right: 20px;
     margin-top: 50px;
     height: 80px;
-    color: black;
-    
-    
+    color: #068;
 }
 
 nav a:hover {
@@ -81,20 +83,24 @@ footer {
     justify-content: space-around;
     text-align: center;
     font-size: large;
+    color: white;
 }
 
 .iconImage {
     height: 200px;
     width: 200px;
-    object-fit: contain;
+    object-fit: cover;
 
 }
 
-.link {
+#active {
+    color: #FF6677;
+}
+
+.link {    
     color: white;
 }
 
-p a:hover {
-    color: #EEDDCC
+p a:hover {    
+    color: #EEDDCC;
 }
-
